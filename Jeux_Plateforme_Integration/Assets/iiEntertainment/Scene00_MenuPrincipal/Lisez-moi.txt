@@ -1,0 +1,45 @@
+------Score Manager------
+
+1. Faire glisser le prefab "[Score_Scene]" dans votre scene
+
+2. Faire référence au script ScoreScene.cs attaché à ce prefab dans le script où vous souhaitez modifier le score du joueur
+Pour cela, voici un template du script de base modifié, n'oubliez pas de changer le nom /!\ :
+
+/////////////////////////////////////////////////
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class VotreScript : MonoBehaviour {
+	private ScoreScene ScoreScene;
+
+	// Use this for initialization
+	void Start () {
+		ScoreScene = GameObject.Find ("[ScoreScene]").GetComponent<ScoreScene> ();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+
+	}
+}
+
+
+/*
+
+Fonctions de modification du score :
+
+ 	ScoreScene.AddValue(int val);
+ 	ajoute une valeur définie au score. Peut être négative (malus).
+
+	int scoreValue = ScoreScene.GetValue();
+	récupère la valeur du score.
+
+	Lorsque l'on retourne au menu principal, le score est automatiquement comparé avec les highscores (qui sont au nombre de 8).
+	et vient remplacer le premier qu'il dépasse.
+
+*/
+
+//////////////////////////////////////
+

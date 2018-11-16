@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 0723d24c739354243b00c842cc33a31a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "Bo\xEEte001"
+    100002: //RootNode
+    100004: cabine
+    100006: Ligne001
+    100008: Ligne002
+    100010: Objet001
+    100012: Plan001
+    100014: porte_D
+    100016: porte_fixe
+    100018: porte_G
+    400000: "Bo\xEEte001"
+    400002: //RootNode
+    400004: cabine
+    400006: Ligne001
+    400008: Ligne002
+    400010: Objet001
+    400012: Plan001
+    400014: porte_D
+    400016: porte_fixe
+    400018: porte_G
+    2100000: M_tole_anti-d
+    2100002: M_barriere_rouge
+    2100004: M_barriere_blanche
+    2100006: "M_acier_bross\xE9"
+    2100008: M_acier_rivets
+    2100010: M_ext_cabine
+    2100012: M_neon
+    2100014: M_porte_fixe
+    2100016: M_affiche
+    2300000: "Bo\xEEte001"
+    2300002: cabine
+    2300004: Ligne001
+    2300006: Ligne002
+    2300008: Objet001
+    2300010: Plan001
+    2300012: porte_D
+    2300014: porte_fixe
+    2300016: porte_G
+    3300000: "Bo\xEEte001"
+    3300002: cabine
+    3300004: Ligne001
+    3300006: Ligne002
+    3300008: Objet001
+    3300010: Plan001
+    3300012: porte_D
+    3300014: porte_fixe
+    3300016: porte_G
+    4300000: "Bo\xEEte001"
+    4300002: Ligne001
+    4300004: cabine
+    4300006: Ligne002
+    4300008: Objet001
+    4300010: porte_G
+    4300012: porte_fixe
+    4300014: Plan001
+    4300016: porte_D
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "M_acier_bross\xE9"
+    second: {fileID: 2100000, guid: 63676d3f7d865b040987af86ec4d40b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_acier_rivets
+    second: {fileID: 2100000, guid: 4ca53ee3ef92a3a4c8547fa6e72c7655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_affiche
+    second: {fileID: 2100000, guid: b1d29b64266d813448fa77cf1d4a44a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_barriere_blanche
+    second: {fileID: 2100000, guid: ae315591a3914b643add7e7d98c21d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_barriere_rouge
+    second: {fileID: 2100000, guid: caa883458f9920440a3ee5cb7c5f5efc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ext_cabine
+    second: {fileID: 2100000, guid: b53f0efb6012a0f4bbf8f27db327ef14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_neon
+    second: {fileID: 2100000, guid: 183180d2aba1ef74790e1d6ad82b9343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_porte_fixe
+    second: {fileID: 2100000, guid: 47b7b688e63b61c49a40bd8864ebf0bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_tole_anti-d
+    second: {fileID: 2100000, guid: 8034fdf2e2119df4eadf102a76f9dc8f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
