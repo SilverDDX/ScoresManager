@@ -20,6 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4449651235830372}
   - component: {fileID: 114044382827394252}
+  - component: {fileID: 114635281626410860}
+  - component: {fileID: 114763898523567696}
   m_Layer: 0
   m_Name: '[Games_Manager]'
   m_TagString: Untagged
@@ -54,4 +56,39 @@ MonoBehaviour:
   scoreFile: {fileID: 4900000, guid: 48ddc2454dd65e64cac076cb512dccc1, type: 3}
   nbScore: 8
   nbGames: 11
-  arborescence: /ScoresFile
+  arborescence: /iiEntertainment/Scene00_MenuPrincipal/Scores/ScoresFile
+  username: {fileID: 0}
+  namesGames:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &114635281626410860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393023370629102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a44a58407e37664b9c590835fcc167f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114763898523567696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393023370629102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185364c97017c3c4384db4a3786c645f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,22 +1,22 @@
 Constellation
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
+5,Nom
+5,Nom
+5,Nom
+5,Nom
+0,Nom
+0,Nom
+0,Nom
+0,Nom
 
 Head Soccer
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
-0,Jarvis
+10,Nom
+5,Nom
+5,Nom
+0,Nom
+0,Nom
+0,Nom
+0,Nom
+0,Nom
 
 Parachute
 0,Jarvis

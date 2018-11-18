@@ -2,10 +2,15 @@
 
 1. Faire glisser le prefab "[Score_Scene]" dans votre scene
 
-2. Faire référence au script ScoreScene.cs attaché à ce prefab dans le script où vous souhaitez modifier le score du joueur
+2. Dans le prefab [Score_Scene], n'oubliez pas de changer la valeur d'index de votre jeu (indiquée au fond de la salle de cours, dans le tableau). 
+
+3. Pour changer le score, il faut faire référence au script ScoreScene.cs attaché à ce prefab dans le script où vous souhaitez modifier le score du joueur
 Pour cela, voici un template du script de base modifié, n'oubliez pas de changer le nom /!\ :
 
 /////////////////////////////////////////////////
+
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -40,6 +45,9 @@ Fonctions de modification du score :
 	et vient remplacer le premier qu'il dépasse.
 
 */
+
+
+
 
 //////////////////////////////////////
 

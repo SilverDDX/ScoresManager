@@ -29,10 +29,9 @@ public class ScoresManager : MonoBehaviour {
         arborescence = Application.dataPath + arborescence;
 		scoresValues = new int[nbGames, nbScore];
 		scoresNames = new string[nbGames, nbScore];
-	
         //DefaultScores();
-        ResetScores();
-        //LoadScoresFromFile();
+        //ResetScores();
+        LoadScoresFromFile();
      }
 
 
@@ -57,8 +56,8 @@ public class ScoresManager : MonoBehaviour {
 			{
 				scoresValues[i, j] = scoreBuffer[j];
 				scoresNames[i, j] = nameBuffer[j];
-				Debug.Log (scoresNames[i,j]);
-				Debug.Log (scoresValues[i,j]);
+				//Debug.Log (scoresNames[i,j]);
+				//Debug.Log (scoresValues[i,j]);
 
             }
 				
@@ -181,7 +180,7 @@ public class ScoresManager : MonoBehaviour {
 
 
 	//Reads Highscores in external file according to index value of the game
-    private int[] ReadValuesScores(int index)
+    public int[] ReadValuesScores(int index)
     {
 		int[] currentScores = new int[nbScore];
 
@@ -193,7 +192,7 @@ public class ScoresManager : MonoBehaviour {
     }
 
 	//Reads Highscores Name of the Game in external file according to index value of the game
-	private string[] ReadNamesScores(int index)
+	public string[] ReadNamesScores(int index)
     {
 		string[] currentName = new string[nbScore];
 
